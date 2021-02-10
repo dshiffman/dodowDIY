@@ -5,6 +5,7 @@ ATTiny85,
 47 ohm resistor,
 micro momentary push button switch,
 micro spst switch,
-3x 5mm blue leds
+3x 5mm blue leds, 
+battery terminals
 
 That's it!
