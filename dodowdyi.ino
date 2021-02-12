@@ -100,14 +100,14 @@ void docycle () {
 
 // the setup routine runs once powered on or when you press reset:
 void setup() {
-	diagBegin(9600);
+    diagBegin(9600);
     pinMode(diag, OUTPUT);
     pinMode(led, OUTPUT);
     pinMode(modeSwitch, INPUT_PULLUP);
 
     populateLookup(); //compute the fade values
 
-	docycle(); //do it!
+    docycle(); //do it!
 
 	/* Go into low power mode: -- thanks to Nick Gammon's blog: http://www.gammon.com.au/power
 	 * All outputs to low
@@ -115,11 +115,11 @@ void setup() {
 	 * Sleep mode to 'power down'
 	 * Brown out disabled
 	*/
-	digitalWrite (diag,LOW);
+    digitalWrite (diag,LOW);
     digitalWrite (led,LOW);
     digitalWrite (tx,LOW);
-	ADCSRA = 0;
-	set_sleep_mode (SLEEP_MODE_PWR_DOWN);
+    ADCSRA = 0;
+    set_sleep_mode (SLEEP_MODE_PWR_DOWN);
     sleep_enable();
     sleep_bod_disable();
     interrupts ();
