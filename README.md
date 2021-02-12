@@ -14,3 +14,8 @@ Parts list:
 you'll also need a way to program the MCU (I used a Tiny Programmer)
 
 That's it!
+
+![here are the parts I used](https://github.com/dshiffman/dodowDIY/blob/main/dodowdiy%20parts.jpg)
+
+
+
