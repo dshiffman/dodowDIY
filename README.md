@@ -1,5 +1,6 @@
 # dodowDIY
 **An ATTiny85 implementation of the well known sleep aid. Includes circuit, software and 3d printed case design**  
+The STL shells are desiged around parts I had hanging around - easy to remodel for different batteries, switches, etc.
 
 Parts list:  
 * ATTiny85 (i used a DIP8 version)  
@@ -8,6 +9,7 @@ Parts list:
 * micro momentary push button switch  
 * micro spst switch  
 * 3x 5mm blue leds  
+* CR17345 or DL123A battery
 * battery terminals  
 * Some proto-board (20mm wide if you want to use my STLs unaltered)
 
