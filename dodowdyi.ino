@@ -1,6 +1,5 @@
-/* Inspiration from gary909 instructables
- * https://www.instructables.com/DIY-Dodow-Clone-Arduino-Sleep-Meditation-Machine/
-*/
+// Inspiration from gary909 instructable:
+// https://www.instructables.com/DIY-Dodow-Clone-Arduino-Sleep-Meditation-Machine
 
 #include "Arduino.h"
 #include <EEPROM.h>
@@ -18,11 +17,11 @@ const float msPerMin = 60000;
 
 diagPins(rx, tx);
 
-/* Fade a LED to perceived brightness rather than linearly
- * Thanks to Diarmuid Mac Namara's blog for the calculation -
- * https://diarmuid.ie/blog/pwm-exponential-led-fading-on-arduino-or-other-platforms
- * Use lookup table in EEPROM rather than RAM, don't re-write each time
-*/
+// Fade a LED to perceived brightness rather than linearly
+// Thanks to Diarmuid Mac Namara's blog for the calculation:
+// https://diarmuid.ie/blog/pwm-exponential-led-fading-on-arduino-or-other-platforms
+// Use lookup table in EEPROM rather than RAM, don't re-write each time
+
 void populateLookup() {
 	const float r = (pwmIntervals * log10(2))/(log10(255));
 	diagPrintln ("Populate");
@@ -76,7 +75,7 @@ void docycle () {
     diagPrintln ("DOCYCLE");
     int sensorVal = digitalRead(modeSwitch);
 
-    //If the switch is set to High, run this portion of code
+    //Check the switch to see if we sould run 8 or 20 mins
     if (sensorVal == LOW) {	//8 Min Structure
     	diagPrintln ("8 min loop");
     	ramp (11.0,1); 		//Min 1 = 11 breaths per minute
