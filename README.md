@@ -3,7 +3,7 @@
 The STL shells are desiged around parts I had hanging around - easy to remodel for different batteries, switches, etc.
 
 Parts list:  
-* ATTiny85 (i used a DIP8 version)  
+* ATTiny85 (I used a DIP8 version)  
 * 8 pin socket  
 * 47 ohm resistor  
 * micro momentary push button switch  
@@ -16,6 +16,10 @@ Parts list:
 you'll also need a way to program the MCU (I used a Tiny Programmer)
 
 That's it!
+
+STL files, Source Files are in the obvious places.
+
+The Pics folder has the assembly at various stages to give you an idea of the approach.
 
 ![here are the parts I used](https://github.com/dshiffman/dodowDIY/blob/main/dodowdiy%20parts.jpg)
 
