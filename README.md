@@ -23,5 +23,7 @@ The Pics folder has the assembly at various stages to give you an idea of the ap
 
 ![here are the parts I used](https://github.com/dshiffman/dodowDIY/blob/main/dodowdiy%20parts.jpg)
 
+https://www.thingiverse.com/thing:4761399
+
 
 
