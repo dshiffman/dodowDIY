@@ -15,6 +15,8 @@ Parts list:
 
 you'll also need a way to program the MCU (I used a Tiny Programmer)
 
+By-the-way, if everything is running 8 time too slow, it's probably because the 'low' fuse in your ATTiny is programmed to divide the clock by 8 (fuse - 0x62) to get the divice to run at 8mhz, burn the low fuse to 0xE2 instead.
+
 That's it!
 
 STL files, Source Files are in the obvious places.
