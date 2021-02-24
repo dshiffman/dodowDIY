@@ -23,7 +23,7 @@ There's no on/off switch because at the end of the cycle the ATTiny is put to sl
 
 A couple of folks have commented that blue LEDs aren't conducive for sleep - in the Dodow (https://www.mydodow.com/) FAQ they claim that "The color blue was chosen after much testing, based on the generally accepted perception that blue is calming. Blue light in high doses can help wake you up by inhibiting melatonin secretion, but Dodow does not. Being projected on the ceiling, the light signal, at its maximum intensity and for someone who is lying in bed, has a very low intensity". 
 
-The faint glow on the ceiling fading in and out and gradually slowing down is actually quite soothing in my experience.
+The faint glow on the ceiling fading in and out and gradually slowing down is actually quite soothing in my experience. To reduce the brightness of the LEDs you can always increase resistor value.
 
 STL files, Source Files are in the obvious places.
 
