@@ -17,6 +17,8 @@ you'll also need a way to program the MCU (I used a Tiny Programmer)
 
 By-the-way, if everything is running 8 times too slow, it's probably because the 'low' fuse in your ATTiny is programmed to divide the clock by 8 (fuse - 0x62) to get the device to run at 8mhz, burn the low fuse to 0xE2 instead.
 
+There's no on/off switch because at the end of the cycle the ATTiny is put to sleep and only draws a few micro-amps.  Given the 1.4 amp-hour capacity of the battery it will last for years.
+
 That's it!
 
 STL files, Source Files are in the obvious places.
