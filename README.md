@@ -21,7 +21,9 @@ By-the-way, if everything is running 8 times too slow, it's probably because the
 
 There's no on/off switch because at the end of the cycle the ATTiny is put to sleep and only draws a few micro-amps.  Given the 1.4 amp-hour capacity of the battery it will last for years.
 
-A couple of folks have commented that blue LEDs aren't conducive for sleep - in the Dodow (https://www.mydodow.com/) FAQ they claim that "The color blue was chosen after much testing, based on the generally accepted perception that blue is calming. Blue light in high doses can help wake you up by inhibiting melatonin secretion, but Dodow does not. Being projected on the ceiling, the light signal, at its maximum intensity and for someone who is lying in bed, has a very low intensity". The faint glow on the ceiling fading in and out and gradually slowing down is actually quite soothing in my experience.
+A couple of folks have commented that blue LEDs aren't conducive for sleep - in the Dodow (https://www.mydodow.com/) FAQ they claim that "The color blue was chosen after much testing, based on the generally accepted perception that blue is calming. Blue light in high doses can help wake you up by inhibiting melatonin secretion, but Dodow does not. Being projected on the ceiling, the light signal, at its maximum intensity and for someone who is lying in bed, has a very low intensity". 
+
+The faint glow on the ceiling fading in and out and gradually slowing down is actually quite soothing in my experience.
 
 STL files, Source Files are in the obvious places.
 
